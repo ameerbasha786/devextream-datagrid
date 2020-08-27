@@ -1,0 +1,22 @@
+{
+  "name": "jazeeratechnologies",
+  "version": "1.0.0",
+  "description": "\"interview-task\" ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ameerbasha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "devextreme": "^20.1.6",
+    "devextreme-react": "^20.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0"
+  }
+}

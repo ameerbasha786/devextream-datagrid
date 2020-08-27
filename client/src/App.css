@@ -1,0 +1,33 @@
+body{
+  margin:0;
+  padding:0;
+  background-color: grey;
+}
+.section{
+  margin: 15px 25px;;
+}
+.section h1{
+  text-align: center;
+  font-size: 2rem;
+  color:#ccc
+}
+#grid {
+  height: 440px;
+}
+.order_popup{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.order_popup > div{
+  flex-grow: 1;
+}
+.order_popup div div label{
+  font-size: 12px;
+  font-weight: 600;
+}
+.order_popup div div p{
+  margin: 0;
+  margin-bottom: 15px;
+}
