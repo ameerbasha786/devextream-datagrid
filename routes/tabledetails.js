@@ -23,10 +23,9 @@ router.get('/:id',async (req,res)=>{
 })
 
 router.put('/:id',async (req,res)=>{
-    const useritem=dbtable.findById({_id:req.params.id});
-    if(useritem){
+    
         const data=await dbtable.findByIdAndUpdate({_id:req.params.id},req.body,{useFindAndModify:false});
-} try{
+try{
         res.send(data)
     }catch(error){
         res.send(error)
